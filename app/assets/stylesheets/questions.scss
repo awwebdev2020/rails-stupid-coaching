@@ -1,0 +1,50 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+$white: white;
+
+body {
+
+  background: $white; // Using this variable
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.banner {
+  display: flex;
+  justify-content: left;
+  padding: 15px;
+  margin: 15px;
+  h1 {
+    font-size: 50px;
+   }
+}
+
+p {
+  display: flex;
+  justify-content: left;
+  border-left: solid 3px lightslategray;
+  font-size: larger;
+  padding: 30px;
+  margin: 30px;
+}
+
+p :hover{  
+  background-color: lightgreen;
+}
+  
+#coach{
+  background-color: lightskyblue;
+}
+
+a {
+  padding: 15px;
+  margin: 15px;
+  font-size: larger;
+  display: flex;
+  justify-content: left;
+  color: lightskyblue;
+  &:hover {
+  color: black;
+    }
+}
